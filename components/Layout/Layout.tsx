@@ -32,6 +32,8 @@ const Layout: FC<LayoutProps> = ({
           height: 100%;
           min-height: 100%;
           margin: 0;
+          font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Roboto",
+            "Arial", sans-serif;
         }
 
         #__next {
