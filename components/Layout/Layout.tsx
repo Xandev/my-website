@@ -1,4 +1,3 @@
-import { layoutStyle } from "./Layout.style";
 import { FC } from "react";
 import HtmlHead from "../HtmlHead/HtmlHead";
 
@@ -12,10 +11,10 @@ const Layout: FC<LayoutProps> = ({
   title = "Radosław Mariowski",
 }) => {
   return (
-    <div style={layoutStyle}>
+    <>
       <HtmlHead title={title} />
       {children}
-    </div>
+    </>
   );
 };
 
