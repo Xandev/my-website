@@ -1,5 +1,8 @@
 import Layout from "../components/Layout/Layout";
+import { NextPage } from "next";
 
-const Index = () => <Layout></Layout>;
+const IndexPage: NextPage = () => {
+  return <Layout></Layout>;
+};
 
-export default Index;
+export default IndexPage;
