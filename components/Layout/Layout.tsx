@@ -13,7 +13,32 @@ const Layout: FC<LayoutProps> = ({
   return (
     <>
       <HtmlHead title={title} />
+
       {children}
+
+      <style jsx global>{`
+        html {
+          box-sizing: border-box;
+        }
+
+        *,
+        *::after,
+        *::before {
+          box-sizing: inherit;
+        }
+
+        body {
+          width: 100%;
+          height: 100%;
+          min-height: 100%;
+          margin: 0;
+        }
+
+        #__next {
+          width: 100%;
+          height: 100%;
+        }
+      `}</style>
     </>
   );
 };
