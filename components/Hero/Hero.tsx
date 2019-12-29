@@ -1,11 +1,18 @@
 import { FC } from "react";
+import Avatar from "./Avatar/Avatar";
+import Info from "./Info/Info";
+import Buttons from "./Buttons/Buttons";
+import Social from "./Social/Social";
 
 const Hero: FC = () => {
   return (
     <>
       <section className="hero">
         <div className="hero-container">
-          <img className="avatar" src="https://i.imgur.com/66C5mgF.jpg"></img>
+          <Avatar />
+          <Info />
+          <Buttons />
+          <Social />
         </div>
       </section>
 
@@ -19,18 +26,9 @@ const Hero: FC = () => {
         .hero-container {
           display: inline-block;
           max-width: 800px;
-          margin-left: auto;
-          margin-right: auto;
+          margin: 0 auto;
           padding: 1.5em;
           text-align: center;
-        }
-
-        .avatar {
-          width: 120px;
-          height: 120px;
-          padding: 5px;
-          border: 1px solid #dedede;
-          border-radius: 50%;
         }
       `}</style>
     </>
