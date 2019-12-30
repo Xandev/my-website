@@ -40,6 +40,10 @@ const Layout: FC<LayoutProps> = ({
           background: #fff url(../images/bg.png);
           font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Roboto",
             "Arial", sans-serif;
+          font-feature-settings: "kern", "liga", "pnum";
+          font-size: 1em;
+          font-weight: 400;
+          line-height: 1.5;
         }
 
         #__next {
