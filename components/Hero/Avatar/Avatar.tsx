@@ -7,8 +7,8 @@ const Avatar: FC = () => {
 
       <style jsx>{`
         .avatar {
-          width: 120px;
-          height: 120px;
+          width: 140px;
+          height: 140px;
           padding: 5px;
           border: 1px solid #dedede;
           border-radius: 50%;
