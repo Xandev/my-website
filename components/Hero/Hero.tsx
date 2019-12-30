@@ -21,6 +21,7 @@ const Hero: FC = () => {
           display: flex;
           align-items: center;
           justify-content: center;
+          height: 100%;
         }
 
         .hero-container {

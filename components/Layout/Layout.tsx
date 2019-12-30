@@ -18,6 +18,8 @@ const Layout: FC<LayoutProps> = ({
 
       <style jsx global>{`
         html {
+          height: 100%;
+          min-height: 100%;
           box-sizing: border-box;
         }
 
@@ -32,6 +34,7 @@ const Layout: FC<LayoutProps> = ({
           height: 100%;
           min-height: 100%;
           margin: 0;
+          background: #fff url(../images/bg.png);
           font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Roboto",
             "Arial", sans-serif;
         }
