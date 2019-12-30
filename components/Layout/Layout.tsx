@@ -1,5 +1,6 @@
 import { FC } from "react";
 import HtmlHead from "../HtmlHead/HtmlHead";
+import GitHubCorner from "./GitHubCorner/GitHubCorner";
 
 interface LayoutProps {
   title?: string;
@@ -13,7 +14,8 @@ const Layout: FC<LayoutProps> = ({
   return (
     <>
       <HtmlHead title={title} />
-
+      <GitHubCorner />
+      
       {children}
 
       <style jsx global>{`
@@ -34,6 +36,7 @@ const Layout: FC<LayoutProps> = ({
           height: 100%;
           min-height: 100%;
           margin: 0;
+          border-top: 5px solid #337ab7;
           background: #fff url(../images/bg.png);
           font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Roboto",
             "Arial", sans-serif;
