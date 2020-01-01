@@ -5,4 +5,5 @@ module.exports = {
       "/": { page: "/" },
     };
   },
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/my-website/' : '',
 };
