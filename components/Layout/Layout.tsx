@@ -34,7 +34,7 @@ const Layout: FC<LayoutProps> = ({ children, title = "Radosław Mariowski" }) =>
           min-height: 100%;
           margin: 0;
           border-top: 5px solid #337ab7;
-          background: #fff url(../images/bg.png);
+          background: #fff url(images/bg.png);
           font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
           font-feature-settings: "kern", "liga", "pnum";
           font-size: 1em;
