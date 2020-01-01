@@ -9,7 +9,9 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "export": "next export"
+    "export": "next export",
+    "lint": "tslint -c tslint.json '{components,pages}/**/*.{ts,tsx}'",
+    "lint-fix": "npm run lint -- --fix"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.26",
@@ -24,6 +26,8 @@
     "@types/node": "^13.1.1",
     "@types/react": "^16.9.17",
     "prettier": "^1.19.1",
+    "tslint": "^5.20.1",
+    "tslint-react": "^4.1.0",
     "typescript": "^3.7.4"
   }
 }

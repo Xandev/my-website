@@ -16,7 +16,7 @@ const Hero: FC = () => {
         </div>
       </section>
 
-      <style jsx>{`
+      <style jsx={true}>{`
         .hero {
           display: flex;
           align-items: center;

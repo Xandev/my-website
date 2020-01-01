@@ -15,7 +15,8 @@ const SocialItem: FC<SocialItemProps> = (props: SocialItemProps) => {
           <FontAwesomeIcon icon={props.icon} />
         </a>
       </li>
-      <style jsx>{`
+
+      <style jsx={true}>{`
         .social-item {
           display: inline-block;
           padding: 0 10px;

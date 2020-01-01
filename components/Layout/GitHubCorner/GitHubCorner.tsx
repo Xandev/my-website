@@ -17,7 +17,7 @@ const GitHubCorner: FC = () => {
         </svg>
       </a>
 
-      <style jsx>{`
+      <style jsx={true}>{`
         svg {
           fill: #337ab7;
           color: #fff;

@@ -10,7 +10,7 @@ const Buttons: FC = () => {
         Blog
       </a>
 
-      <style jsx>{`
+      <style jsx={true}>{`
         .button {
           display: inline-block;
           width: 100px;

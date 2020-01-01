@@ -3,9 +3,9 @@ import { FC } from "react";
 const Avatar: FC = () => {
   return (
     <>
-      <img className="avatar" src="images/me.jpg"></img>
+      <img className="avatar" src="images/me.jpg" />
 
-      <style jsx>{`
+      <style jsx={true}>{`
         .avatar {
           width: 120px;
           height: 120px;

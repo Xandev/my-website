@@ -7,18 +7,15 @@ interface LayoutProps {
   children?: any;
 }
 
-const Layout: FC<LayoutProps> = ({
-  children,
-  title = "Radosław Mariowski",
-}) => {
+const Layout: FC<LayoutProps> = ({ children, title = "Radosław Mariowski" }) => {
   return (
     <>
       <HtmlHead title={title} />
       <GitHubCorner />
-      
+
       {children}
 
-      <style jsx global>{`
+      <style jsx={true} global={true}>{`
         html {
           height: 100%;
           min-height: 100%;
@@ -38,8 +35,7 @@ const Layout: FC<LayoutProps> = ({
           margin: 0;
           border-top: 5px solid #337ab7;
           background: #fff url(../images/bg.png);
-          font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Roboto",
-            "Arial", sans-serif;
+          font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
           font-feature-settings: "kern", "liga", "pnum";
           font-size: 1em;
           font-weight: 400;
