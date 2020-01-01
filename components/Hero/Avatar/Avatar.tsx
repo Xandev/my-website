@@ -7,11 +7,12 @@ const Avatar: FC = () => {
 
       <style jsx>{`
         .avatar {
-          width: 140px;
-          height: 140px;
-          padding: 5px;
+          width: 120px;
+          height: 120px;
+          padding: 3px;
           border: 1px solid #dedede;
           border-radius: 50%;
+          user-select: none;
         }
       `}</style>
     </>

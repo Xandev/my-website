@@ -8,7 +8,7 @@ const Info: FC = () => {
         I'm <strong>Radosław Mariowski</strong>, a <em>Full Stack Developer</em>
         .
       </h3>
-      <h3>Bio goes there</h3>
+      <h3>Lorem ipsum</h3>
     </>
   );
 };

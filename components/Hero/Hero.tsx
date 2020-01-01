@@ -27,8 +27,6 @@ const Hero: FC = () => {
         .hero-container {
           display: inline-block;
           max-width: 800px;
-          margin: 0 auto;
-          padding: 1.5em;
           text-align: center;
         }
       `}</style>

@@ -18,8 +18,8 @@ const SocialItem: FC<SocialItemProps> = (props: SocialItemProps) => {
       <style jsx>{`
         .social-item {
           display: inline-block;
-          padding: 0 0.5em;
-          font-size: 1.75em;
+          padding: 0 10px;
+          font-size: 30px;
         }
 
         .social-item a {
