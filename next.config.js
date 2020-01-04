@@ -4,8 +4,6 @@ module.exports = {
     return {
       "/": { page: "/" },
     };
-  }
-
-  // For GitHub Pages without custom domain: 
-  // assetPrefix: process.env.NODE_ENV === 'production' ? '/my-website/' : '',
+  },
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/my-website' : '',
 };
