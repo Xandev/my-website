@@ -5,9 +5,9 @@ const Info: FC = () => {
     <>
       <h1>Welcome!</h1>
       <h3>
-        I'm <strong>Radosław Mariowski</strong>, a <em>Full Stack Developer</em>.
+        I'm <strong>Radosław Mariowski</strong>, a <em>Full Stack Developer</em>.<br />
+        Commercial experience in developing: <em>web, server, mobile applications</em> and <em>games</em>.
       </h3>
-      <h3>Lorem ipsum</h3>
 
       <style jsx={true}>{`
         h1 {
