@@ -3,7 +3,7 @@ import { FC } from "react";
 const GitHubCorner: FC = () => {
   return (
     <>
-      <a href="https://github.com/Xandev/my-website" target="_blank">
+      <a href="https://github.com/Xandev/my-website" target="_blank" title="Repository" aria-label="Repository">
         <svg width="80" height="80" viewBox="0 0 250 250">
           <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z" />
           <path

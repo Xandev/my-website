@@ -3,10 +3,10 @@ import { FC } from "react";
 const Buttons: FC = () => {
   return (
     <>
-      <a href="/about" className="button" title="about">
-        About
+      <a href="/about" className="button" title="About Me" aria-label="About Me">
+        About Me
       </a>
-      <a href="/blog" className="button" title="blog">
+      <a href="/blog" className="button" title="Blog" aria-label="Blog">
         Blog
       </a>
 

@@ -5,13 +5,14 @@ import { IconDefinition } from "@fortawesome/free-brands-svg-icons";
 interface SocialItemProps {
   href: string;
   icon: IconDefinition;
+  title: string;
 }
 
 const SocialItem: FC<SocialItemProps> = (props: SocialItemProps) => {
   return (
     <>
       <li className="social-item">
-        <a href={props.href} target="_blank">
+        <a href={props.href} target="_blank" title={props.title} aria-label={props.title}>
           <FontAwesomeIcon icon={props.icon} />
         </a>
       </li>

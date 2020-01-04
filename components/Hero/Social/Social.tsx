@@ -7,10 +7,14 @@ const Social: FC = () => {
   return (
     <>
       <ul className="social">
-        <SocialItem href="mailto:radek@mariowski.pl" icon={faEnvelopeSquare} />
-        <SocialItem href="https://github.com/Xandev" icon={faGithubSquare} />
-        <SocialItem href="https://twitter.com/RMariowski" icon={faTwitterSquare} />
-        <SocialItem href="https://www.linkedin.com/in/rados%C5%82aw-mariowski-4a1465ba/" icon={faLinkedin} />
+        <SocialItem href="mailto:radek@mariowski.pl" icon={faEnvelopeSquare} title="Mail To" />
+        <SocialItem href="https://github.com/Xandev" icon={faGithubSquare} title="GitHub" />
+        <SocialItem href="https://twitter.com/RMariowski" icon={faTwitterSquare} title="Twitter" />
+        <SocialItem
+          href="https://www.linkedin.com/in/rados%C5%82aw-mariowski-4a1465ba/"
+          icon={faLinkedin}
+          title="LinkedIn"
+        />
       </ul>
 
       <style jsx={true}>{`
