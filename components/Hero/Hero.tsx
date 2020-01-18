@@ -3,34 +3,18 @@ import Avatar from "./Avatar/Avatar";
 import Info from "./Info/Info";
 import Buttons from "./Buttons/Buttons";
 import Social from "./Social/Social";
+import styles from "./Hero.module.css";
 
 const Hero: FC = () => {
   return (
-    <>
-      <section className="hero">
-        <div className="hero-container">
-          <Avatar />
-          <Info />
-          <Buttons />
-          <Social />
-        </div>
-      </section>
-
-      <style jsx={true}>{`
-        .hero {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          height: 100%;
-        }
-
-        .hero-container {
-          display: inline-block;
-          max-width: 600px;
-          text-align: center;
-        }
-      `}</style>
-    </>
+    <section className={styles.section}>
+      <div className={styles.container}>
+        <Avatar />
+        <Info />
+        <Buttons />
+        <Social />
+      </div>
+    </section>
   );
 };
 
