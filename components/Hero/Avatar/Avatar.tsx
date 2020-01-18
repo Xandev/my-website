@@ -1,22 +1,8 @@
 import { FC } from "react";
+import styles from "./Avatar.module.css";
 
 const Avatar: FC = () => {
-  return (
-    <>
-      <img className="avatar" src="images/me.jpg" alt="avatar" />
-
-      <style jsx={true}>{`
-        .avatar {
-          width: 125px;
-          height: 125px;
-          padding: 3px;
-          border: 1px solid #dedede;
-          border-radius: 50%;
-          user-select: none;
-        }
-      `}</style>
-    </>
-  );
+  return <img className={styles.image} src="images/me.jpg" alt="avatar" />;
 };
 
 export default Avatar;

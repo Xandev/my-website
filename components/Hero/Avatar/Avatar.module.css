@@ -1,0 +1,8 @@
+.image {
+  width: 125px;
+  height: 125px;
+  padding: 3px;
+  border: 1px solid #dedede;
+  border-radius: 50%;
+  user-select: none;
+}
